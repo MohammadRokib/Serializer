@@ -15,3 +15,8 @@
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/obj/Debug/net9.0/SerializerAssignment.pdb
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/obj/Debug/net9.0/SerializerAssignment.genruntimeconfig.cache
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/obj/Debug/net9.0/ref/SerializerAssignment.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/JSON.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/JSON.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/obj/Debug/net9.0/SerializerAssignment.sourcelink.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/XML.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/XML.pdb

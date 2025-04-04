@@ -6,6 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="*"/>
+    <PackageReference Include="Newtonsoft.Json" Version="*" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../JSON/JSON.csproj" />
+    <ProjectReference Include="../XML/XML.csproj" />
   </ItemGroup>
 </Project>

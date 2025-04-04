@@ -1,4 +1,6 @@
 ﻿using System.Reflection;
+using JSON;
+using XML;
 using Newtonsoft.Json;
 
 namespace SerializerAssignment;
@@ -19,11 +21,27 @@ class Program
 
         try
         {
-            Type t = Assembly
-                .GetExecutingAssembly()
-                .GetTypes()
-                .Where(x => x.Name == configJson.Serializer.ToString())
-                .First();
+            string typeName = configJson!.Serializer.ToString();
+            Assembly assembly;
+
+            if (typeName == "JSON")
+            {
+                typeName += ".Serialize";
+                assembly = typeof(JSON.Serialize).Assembly;
+            }
+            else
+            {
+                typeName += ".Serialize";
+                assembly = typeof(XML.Serialize).Assembly;
+            }
+
+            Type t = assembly.GetType(typeName);
+
+            if (t == null)
+            {
+                System.Console.WriteLine($"Type: {typeName} couldn't be found");
+                return;
+            }
             
             ConstructorInfo constructor = t.GetConstructor(new Type[] {});
             object o = constructor.Invoke(new object[] {});

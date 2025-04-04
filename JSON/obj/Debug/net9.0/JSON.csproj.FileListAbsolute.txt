@@ -1,0 +1,12 @@
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/bin/Debug/net9.0/JSON.deps.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/bin/Debug/net9.0/JSON.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/bin/Debug/net9.0/JSON.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/JSON.GeneratedMSBuildEditorConfig.editorconfig
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/JSON.AssemblyInfoInputs.cache
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/JSON.AssemblyInfo.cs
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/JSON.csproj.CoreCompileInputs.cache
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/JSON.sourcelink.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/JSON.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/refint/JSON.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/JSON.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/Debug/net9.0/ref/JSON.dll

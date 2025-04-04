@@ -14,6 +14,26 @@
             "related": ".xml"
           }
         }
+      },
+      "JSON/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/JSON.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSON.dll": {}
+        }
+      },
+      "XML/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/XML.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XML.dll": {}
+        }
       }
     }
   },
@@ -47,11 +67,23 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "JSON/1.0.0": {
+      "type": "project",
+      "path": "../JSON/JSON.csproj",
+      "msbuildProject": "../JSON/JSON.csproj"
+    },
+    "XML/1.0.0": {
+      "type": "project",
+      "path": "../XML/XML.csproj",
+      "msbuildProject": "../XML/XML.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Newtonsoft.Json >= *"
+      "JSON >= 1.0.0",
+      "Newtonsoft.Json >= *",
+      "XML >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -79,7 +111,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj": {
+              "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj"
+            },
+            "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj": {
+              "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

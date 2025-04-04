@@ -1,0 +1,12 @@
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/bin/Debug/net9.0/XML.deps.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/bin/Debug/net9.0/XML.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/bin/Debug/net9.0/XML.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/XML.GeneratedMSBuildEditorConfig.editorconfig
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/XML.AssemblyInfoInputs.cache
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/XML.AssemblyInfo.cs
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/XML.csproj.CoreCompileInputs.cache
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/XML.sourcelink.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/XML.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/refint/XML.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/XML.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/Debug/net9.0/ref/XML.dll
