@@ -43,49 +43,15 @@ class Program
                 System.Console.WriteLine($"Type: {typeName} couldn't be found");
                 return;
             }
-            
-            AdmissionTest test = new AdmissionTest
-            {
-                StartDateTime = DateTime.Now,
-                EndDateTime = DateTime.Now,
-                TestFees = 1000.00,
-                Names = new List<string>
-                {
-                    "Mohammad",
-                    "Rokib",
-                    "Khan"
-                }
-            };
-            
-            Topic topicObj = new Topic
-            {
-                Title = "Reflection",
-                Sessions = new List<Session>
-                {
-                    new Session
-                    {
-                        DurationInHour = 3,
-                        LearningObjective = "NULL"
-                    },
-                    new Session
-                    {
-                        DurationInHour = 3,
-                        LearningObjective = "NULL"
-                    },
-                    new Session
-                    {
-                        DurationInHour = 3,
-                        LearningObjective = "NULL"
-                    }
-                },
-                Description = "Practicing Reflection",
-            };
 
+            ObjGenerator objGenerator = new ObjGenerator();
+            object obj = objGenerator.Course();
+            
             ConstructorInfo constructor = t.GetConstructor(new Type[] {});
             object o = constructor.Invoke(new object[] {});
 
             MethodInfo method = t.GetMethod("Start", new Type[] { typeof(object) });
-            method.Invoke(o, new object[] { topicObj });
+            method.Invoke(o, new object[] { obj });
         }
         catch (Exception ex)
         {

@@ -9,6 +9,13 @@ public class Serialize
     public void Start(object obj)
     {
         string json = SerializeObject(obj);
+
+        string folderPath = new DirectoryInfo(Directory.GetCurrentDirectory())
+            .Parent.Parent.Parent.Parent.ToString();
+        
+        string filePath = Path.Combine(folderPath, "output.txt");
+        File.WriteAllText(filePath, json);
+
         System.Console.WriteLine(json);
     }
     private string SerializeObject(object? obj)
