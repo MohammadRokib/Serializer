@@ -45,7 +45,7 @@ class Program
             }
 
             ObjGenerator objGenerator = new ObjGenerator();
-            object obj = objGenerator.Course();
+            object obj = objGenerator.Instructor();
             
             ConstructorInfo constructor = t.GetConstructor(new Type[] {});
             object o = constructor.Invoke(new object[] {});
