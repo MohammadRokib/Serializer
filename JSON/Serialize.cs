@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Collections;
+using System.Reflection;
 using System.Text;
 
 namespace JSON;
@@ -48,6 +49,27 @@ public class Serialize
         
         if (t.IsPrimitive || value is decimal)
             return value.ToString();
+
+        if (value is IEnumerable enumerable)
+        {
+            StringBuilder jsonString = new StringBuilder();
+            jsonString.Append("[\n");
+
+            IEnumerator enumerator = enumerable.GetEnumerator();
+            bool first = true;
+
+            while(enumerator.MoveNext())
+            {
+                if (!first)
+                    jsonString.Append(",\n");
+
+                jsonString.Append(SerializeValue(enumerator.Current));
+                first = false;
+            }
+            
+            jsonString.Append("\n]");
+            return jsonString.ToString();
+        }
 
         return SerializeObject(value);
     }

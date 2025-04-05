@@ -48,14 +48,44 @@ class Program
             {
                 StartDateTime = DateTime.Now,
                 EndDateTime = DateTime.Now,
-                TestFees = 1000.00
+                TestFees = 1000.00,
+                Names = new List<string>
+                {
+                    "Mohammad",
+                    "Rokib",
+                    "Khan"
+                }
+            };
+            
+            Topic topicObj = new Topic
+            {
+                Title = "Reflection",
+                Sessions = new List<Session>
+                {
+                    new Session
+                    {
+                        DurationInHour = 3,
+                        LearningObjective = "NULL"
+                    },
+                    new Session
+                    {
+                        DurationInHour = 3,
+                        LearningObjective = "NULL"
+                    },
+                    new Session
+                    {
+                        DurationInHour = 3,
+                        LearningObjective = "NULL"
+                    }
+                },
+                Description = "Practicing Reflection",
             };
 
             ConstructorInfo constructor = t.GetConstructor(new Type[] {});
             object o = constructor.Invoke(new object[] {});
 
             MethodInfo method = t.GetMethod("Start", new Type[] { typeof(object) });
-            method.Invoke(o, new object[] { test });
+            method.Invoke(o, new object[] { topicObj });
         }
         catch (Exception ex)
         {
