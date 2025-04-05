@@ -2,6 +2,7 @@
 using JSON;
 using XML;
 using Newtonsoft.Json;
+using ObjectRef;
 
 namespace SerializerAssignment;
 
@@ -43,11 +44,18 @@ class Program
                 return;
             }
             
+            AdmissionTest test = new AdmissionTest
+            {
+                StartDateTime = DateTime.Now,
+                EndDateTime = DateTime.Now,
+                TestFees = 1000.00
+            };
+
             ConstructorInfo constructor = t.GetConstructor(new Type[] {});
             object o = constructor.Invoke(new object[] {});
 
-            MethodInfo method = t.GetMethod("Start", new Type[] {});
-            method.Invoke(o, new object[] {});
+            MethodInfo method = t.GetMethod("Start", new Type[] { typeof(object) });
+            method.Invoke(o, new object[] { test });
         }
         catch (Exception ex)
         {

@@ -25,6 +25,16 @@
           "bin/placeholder/JSON.dll": {}
         }
       },
+      "ObjectRef/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ObjectRef.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ObjectRef.dll": {}
+        }
+      },
       "XML/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -73,6 +83,11 @@
       "path": "../JSON/JSON.csproj",
       "msbuildProject": "../JSON/JSON.csproj"
     },
+    "ObjectRef/1.0.0": {
+      "type": "project",
+      "path": "../ObjectRef/ObjectRef.csproj",
+      "msbuildProject": "../ObjectRef/ObjectRef.csproj"
+    },
     "XML/1.0.0": {
       "type": "project",
       "path": "../XML/XML.csproj",
@@ -83,6 +98,7 @@
     "net9.0": [
       "JSON >= 1.0.0",
       "Newtonsoft.Json >= *",
+      "ObjectRef >= 1.0.0",
       "XML >= 1.0.0"
     ]
   },
@@ -114,6 +130,9 @@
           "projectReferences": {
             "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj": {
               "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj"
+            },
+            "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj": {
+              "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj"
             },
             "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj": {
               "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj"

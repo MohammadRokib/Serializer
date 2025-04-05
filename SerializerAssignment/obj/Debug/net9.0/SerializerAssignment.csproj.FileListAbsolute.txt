@@ -20,3 +20,5 @@
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/obj/Debug/net9.0/SerializerAssignment.sourcelink.json
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/XML.dll
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/XML.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/ObjectRef.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/ObjectRef.pdb

@@ -1,0 +1,12 @@
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/bin/Debug/net9.0/ObjectRef.deps.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/bin/Debug/net9.0/ObjectRef.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/bin/Debug/net9.0/ObjectRef.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/ObjectRef.GeneratedMSBuildEditorConfig.editorconfig
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/ObjectRef.AssemblyInfoInputs.cache
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/ObjectRef.AssemblyInfo.cs
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/ObjectRef.csproj.CoreCompileInputs.cache
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/ObjectRef.sourcelink.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/ObjectRef.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/refint/ObjectRef.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/ObjectRef.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/Debug/net9.0/ref/ObjectRef.dll

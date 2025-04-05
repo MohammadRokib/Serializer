@@ -2,7 +2,7 @@
 
 public class Serialize
 {
-    public void Start()
+    public void Start(object obj)
     {
         System.Console.WriteLine("Running XML Serialzer");
     }

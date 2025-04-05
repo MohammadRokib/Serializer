@@ -10,6 +10,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="../JSON/JSON.csproj" />
+    <ProjectReference Include="../ObjectRef/ObjectRef.csproj" />
     <ProjectReference Include="../XML/XML.csproj" />
   </ItemGroup>
 </Project>

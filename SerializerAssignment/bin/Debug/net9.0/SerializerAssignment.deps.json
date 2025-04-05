@@ -10,6 +10,7 @@
         "dependencies": {
           "JSON": "1.0.0",
           "Newtonsoft.Json": "13.0.3",
+          "ObjectRef": "1.0.0",
           "XML": "1.0.0"
         },
         "runtime": {
@@ -27,6 +28,14 @@
       "JSON/1.0.0": {
         "runtime": {
           "JSON.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ObjectRef/1.0.0": {
+        "runtime": {
+          "ObjectRef.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -56,6 +65,11 @@
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "JSON/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ObjectRef/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
