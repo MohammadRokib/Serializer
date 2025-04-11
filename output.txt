@@ -1,31 +1,61 @@
-{
-"Name": "Instructor Name",
-"Email": "instructor@domain.com",
-"PresentAddress": {
-"Street": "Road-27",
-"City": "Chittagong",
-"Country": "Bangladesh"
-},
-"PermanentAddress": {
-"Street": "Road-27",
-"City": "Chittagong",
-"Country": "Bangladesh"
-},
-"PhoneNumbers": [
-{
-"Number": "1111111111",
-"Extension": "0",
-"CountryCode": "+88"
-},
-{
-"Number": "1111111111",
-"Extension": "0",
-"CountryCode": "+88"
-},
-{
-"Number": "1111111111",
-"Extension": "0",
-"CountryCode": "+88"
-}
-]
-}
+<Instructor>
+<Name>
+Instructor Name
+</Name>
+<Email>
+instructor@domain.com
+</Email>
+<Address>
+<Street>
+Road-27
+</Street>
+<City>
+Chittagong
+</City>
+<Country>
+Bangladesh
+</Country>
+</Address>
+<Address>
+<Street>
+Road-27
+</Street>
+<City>
+Chittagong
+</City>
+<Country>
+Bangladesh
+</Country>
+</Address>
+<Phone>
+<Number>
+1111111111
+</Number>
+<Extension>
+0
+</Extension>
+<CountryCode>
++88
+</CountryCode>
+</Phone><Phone>
+<Number>
+1111111111
+</Number>
+<Extension>
+0
+</Extension>
+<CountryCode>
++88
+</CountryCode>
+</Phone><Phone>
+<Number>
+1111111111
+</Number>
+<Extension>
+0
+</Extension>
+<CountryCode>
++88
+</CountryCode>
+</Phone>
+</Instructor>

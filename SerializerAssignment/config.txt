@@ -1,3 +1,3 @@
 {
-    Serializer : "JSON"
+    Serializer : "XML"
 }
