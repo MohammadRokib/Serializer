@@ -22,3 +22,5 @@
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/XML.pdb
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/ObjectRef.dll
 /home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/ObjectRef.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/Serializer.DataAccess.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/bin/Debug/net9.0/Serializer.DataAccess.pdb
