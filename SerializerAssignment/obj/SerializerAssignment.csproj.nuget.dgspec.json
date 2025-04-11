@@ -4,14 +4,14 @@
     "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/SerializerAssignment/SerializerAssignment.csproj": {}
   },
   "projects": {
-    "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj": {
+    "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj",
-        "projectName": "JSON",
-        "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj",
+        "projectUniqueName": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj",
+        "projectName": "ObjectRef",
+        "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj",
         "packagesPath": "/home/mohammadrokib/.nuget/packages/",
-        "outputPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/obj/",
+        "outputPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mohammadrokib/.nuget/NuGet/NuGet.Config"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj": {
+    "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/Serializer.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj",
-        "projectName": "ObjectRef",
-        "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj",
+        "projectUniqueName": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/Serializer.DataAccess.csproj",
+        "projectName": "Serializer.DataAccess",
+        "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/Serializer.DataAccess.csproj",
         "packagesPath": "/home/mohammadrokib/.nuget/packages/",
-        "outputPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/obj/",
+        "outputPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mohammadrokib/.nuget/NuGet/NuGet.Config"
@@ -147,14 +147,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj": {
-                "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/JSON/JSON.csproj"
-              },
               "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj": {
                 "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/ObjectRef/ObjectRef.csproj"
               },
-              "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj": {
-                "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj"
+              "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/Serializer.DataAccess.csproj": {
+                "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/Serializer.DataAccess.csproj"
               }
             }
           }
@@ -180,66 +177,6 @@
               "version": "[*, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj",
-        "projectName": "XML",
-        "projectPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/XML.csproj",
-        "packagesPath": "/home/mohammadrokib/.nuget/packages/",
-        "outputPath": "/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/XML/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/mohammadrokib/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net9.0"
-        ],
-        "sources": {
-          "/usr/lib/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",

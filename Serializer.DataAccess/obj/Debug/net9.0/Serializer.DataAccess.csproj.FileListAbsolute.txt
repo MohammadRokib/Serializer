@@ -1,0 +1,12 @@
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/bin/Debug/net9.0/Serializer.DataAccess.deps.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/bin/Debug/net9.0/Serializer.DataAccess.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/bin/Debug/net9.0/Serializer.DataAccess.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/Serializer.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/Serializer.DataAccess.AssemblyInfoInputs.cache
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/Serializer.DataAccess.AssemblyInfo.cs
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/Serializer.DataAccess.csproj.CoreCompileInputs.cache
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/Serializer.DataAccess.sourcelink.json
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/Serializer.DataAccess.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/refint/Serializer.DataAccess.dll
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/Serializer.DataAccess.pdb
+/home/mohammadrokib/Code/Development/DotNet/SerializerAssignment/Serializer.DataAccess/obj/Debug/net9.0/ref/Serializer.DataAccess.dll

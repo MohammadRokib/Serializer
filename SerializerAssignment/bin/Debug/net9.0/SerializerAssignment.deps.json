@@ -11,6 +11,7 @@
           "JSON": "1.0.0",
           "Newtonsoft.Json": "13.0.3",
           "ObjectRef": "1.0.0",
+          "Serializer.DataAccess": "1.0.0",
           "XML": "1.0.0"
         },
         "runtime": {
@@ -36,6 +37,14 @@
       "ObjectRef/1.0.0": {
         "runtime": {
           "ObjectRef.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Serializer.DataAccess/1.0.0": {
+        "runtime": {
+          "Serializer.DataAccess.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -70,6 +79,11 @@
       "sha512": ""
     },
     "ObjectRef/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serializer.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

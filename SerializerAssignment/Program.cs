@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using JSON;
-using XML;
 using Newtonsoft.Json;
 using ObjectRef;
+using Serializer.DataAccess.Repository.IRepository;
+using Serializer.DataAccess.Repository;
 
 namespace SerializerAssignment;
 
@@ -23,35 +23,16 @@ class Program
         try
         {
             string typeName = configJson!.Serializer.ToString();
-            Assembly assembly;
+            IUnitOfWork unitOfWork;
 
             if (typeName == "JSON")
-            {
-                typeName += ".Serialize";
-                assembly = typeof(JSON.Serialize).Assembly;
-            }
+                unitOfWork = new UnitOfWork(new JSONSerializer());
             else
-            {
-                typeName += ".Serialize";
-                assembly = typeof(XML.Serialize).Assembly;
-            }
-
-            Type t = assembly.GetType(typeName);
-
-            if (t == null)
-            {
-                System.Console.WriteLine($"Type: {typeName} couldn't be found");
-                return;
-            }
+                unitOfWork = new UnitOfWork(new XMLSerializer());
 
             ObjGenerator objGenerator = new ObjGenerator();
             object obj = objGenerator.Instructor();
-            
-            ConstructorInfo constructor = t.GetConstructor(new Type[] {});
-            object o = constructor.Invoke(new object[] {});
-
-            MethodInfo method = t.GetMethod("Start", new Type[] { typeof(object) });
-            method.Invoke(o, new object[] { obj });
+            unitOfWork.Start(obj);
         }
         catch (Exception ex)
         {
